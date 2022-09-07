@@ -19,7 +19,7 @@ public class MyController extends WebSecurityConfigurerAdapter{
 	public void configure(AuthenticationManagerBuilder auth) throws Exception {
 		// TODO Auto-generated method stub
 		auth.inMemoryAuthentication().withUser("anand").password("anand").roles("admin").and()
-		.withUser("praveen").password("praveen").roles("user");
+		.withUser("rakesh").password("rakesh").roles("user");
 		
 
 		
